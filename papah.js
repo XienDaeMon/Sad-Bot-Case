@@ -51,7 +51,7 @@ const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Papah\nYoutube :\nhttps://bit.ly/Papah-Chan')  //ubah di config biar ngk emror
+const nyoutube = ('xiendaemon\nYoutube :\nhttps://bit.ly/xiendaemon')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 global.prem = require("./lib/premium")
@@ -189,8 +189,8 @@ module.exports = papah = async (papah, m, chatUpdate, store) => {
 		if (!('templateMsg' in setting)) setting.templateMsg = false	
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: true,
-		templateImage: true,
+		autobio: false,
+		templateImage: false,
 		templateVideo: false,
 		templateGif: false,
 		templateMsg: false,
@@ -289,7 +289,7 @@ jumlahharian = `${dataa.value}`
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await papah.setStatus(`Sad-Bot | Runtime : ${runtime(uptime)}`)
+		await papah.setStatus(`Demon | Runtime : ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -1290,9 +1290,9 @@ m.reply(`*Nomor wa.me/${prmin} telah di unban !*`)
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-                let teks = `══✪〘 *👥 Tag All* 〙✪══
+                let teks = `*Tag All*
  
-                ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+                 *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
                 teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
@@ -4592,11 +4592,11 @@ _*🇯🇵 : このボットの機能のリスト*_.
 
 *[   INFORMATION   ]*
 _⫹⫺ Your Name : ${m.pushName}_
-_⫹⫺ Bot Name : Sad-Bot_
+_⫹⫺ Bot Name : Demon_
 _⫹⫺ Library : Baileys-Md_
 _⫹⫺ Version : 4.0.4_
 _⫹⫺ Language : Javascript_
-_⫹⫺ Recoder : 𝙋𝙖𝙥𝙖𝙝-𝘾𝙝𝙖𝙣_
+_⫹⫺ Recoder : XienDaeMon_
 _⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 _⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_                
 _⫹⫺ Bot Mode : Public Mode_
