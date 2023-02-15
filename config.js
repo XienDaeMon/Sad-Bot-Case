@@ -19,11 +19,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6282287219167']
-global.ownernomer = "6282287219167"
-global.premium = ['6282287219167']
-global.packname = 'Sticker By'
-global.author = 'Sad-Bot'
+global.owner = ['6281269734000']
+global.ownernomer = "6281269734000"
+global.premium = ['6281269734000']
+global.packname = '@xiendaemon'
+global.author = 'DemonBot'
 global.sessionName = 'papah'  //jangan diganti bro nanti error
 global.jumlha = '999'
 global.jumhal = '100000000000000'
@@ -33,7 +33,7 @@ global.sp = ''
 
 // Setting Mess
 global.mess = {
-    success: '✅Selesai',
+    success: 'Selesai',
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     premime: 'Fitur Khusus Premium Kalo Mau Daftar Ketik Sewa / Chat Owner',
@@ -65,9 +65,9 @@ global.myytv = ''
 global.mygc = ""
 
 // Engak Ngaruh, Belum Kepasang
-global.botname = 'SAD BOT'
-global.akulaku = 'Bot By Papah'
-global.ytname = 'YT PAPAH' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
+global.botname = 'Demon'
+global.akulaku = 'Xien Dae Mon'
+global.ytname = '@xiendaemon' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
 
 
 let file = require.resolve(__filename)
